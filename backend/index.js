@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 const corsoptions={
-    origin:'http://localhost:3000',
+    origin:'https://engineers-hub.onrender.com',
     credentials:true,
     
    
